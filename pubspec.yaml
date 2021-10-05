@@ -1,0 +1,58 @@
+name: audio_bible_dramarized
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.3
+  webfeed: ^0.7.0
+  http: ^0.13.3
+  flutter_riverpod: ^0.14.0+3
+  audio_service: ^0.17.1
+  just_audio: ^0.7.5
+  audio_session: ^0.1.5
+  rxdart: ^0.27.1
+  get_storage: ^2.0.3
+  google_fonts: ^2.1.0
+  shimmer: ^2.0.0
+  cached_network_image: ^3.1.0
+  share: ^2.0.4
+  url_launcher: ^6.0.3
+  flutter_downloader: ^1.6.1
+  permission_handler: ^8.1.4+2
+  we_slide: ^2.2.0
+  expansion_tile_card: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/images/
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
